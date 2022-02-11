@@ -68,7 +68,7 @@
 		7C5418C427B63FC300794AB5 /* YOThridLibary */ = {
 			isa = PBXGroup;
 			children = (
-				7C5418DE27B63FD700794AB5 /* Classess */,
+				7C5418DE27B63FD700794AB5 /* Classes */,
 				7C5418C527B63FC300794AB5 /* AppDelegate.h */,
 				7C5418C627B63FC300794AB5 /* AppDelegate.m */,
 				7C5418CB27B63FC300794AB5 /* ViewController.h */,
@@ -82,7 +82,7 @@
 			path = YOThridLibary;
 			sourceTree = "<group>";
 		};
-		7C5418DE27B63FD700794AB5 /* Classess */ = {
+		7C5418DE27B63FD700794AB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				7C5418E927B640C200794AB5 /* UIColorHexColor */,
@@ -90,7 +90,7 @@
 				7C5418E127B6407F00794AB5 /* IBInspectable */,
 				7C5418DF27B63FE000794AB5 /* Const */,
 			);
-			path = Classess;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7C5418DF27B63FE000794AB5 /* Const */ = {

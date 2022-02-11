@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YOThridLibary"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "A short description of YOThridLibary."
 
   # This description is used to generate tags and improve search results.
@@ -91,27 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YOThridLibary/YOThridLibary/Classes", "YOThridLibary/YOThridLibary/Classes/Const/**/*.{h,m}"
-  # spec.exclude_files = "YOThridLibary/YOThridLibary/Classes/Exclude"
-
-  # spec.subspec 'Const' do |ss|
-  #   ss.source_files = 'YOThridLibary/YOThridLibary/Classes/Const/**/*.{h,m}'
-  # end
-
-  # spec.subspec 'IBInspectable' do |ss|
-  #   ss.source_files = 'YOThridLibary/YOThridLibary/Classes/IBInspectable/**/*.{h,m}'
-  # end
-
-
-  # spec.subspec 'UIColorHexColor' do |ss|
-  #   ss.source_files = 'YOThridLibary/YOThridLibary/Classes/UIColorHexColor/**/*.{h,m}'
-  # end
-
-  # spec.subspec 'YOBtnBlock' do |ss|
-  #   ss.source_files = 'YOThridLibary/YOThridLibary/Classes/YOBtnBlock/**/*.{h,m}'
-  # end
-
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.source_files  = "YOThridLibary/YOThridLibary/Classes", "YOThridLibary/YOThridLibary/Classes/**/*.{h,m}"
+  spec.exclude_files = "YOThridLibary/YOThridLibary/Classes/Exclude"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
