@@ -91,8 +91,25 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YOThridLibary/YOThridLibary/Classes", "YOThridLibary/YOThridLibary/Classes/**/*.{h,m}"
+  # spec.source_files  = "YOThridLibary/YOThridLibary/Classes", "YOThridLibary/YOThridLibary/Classes/**/*.{h,m}"
   # spec.exclude_files = "YOThridLibary/YOThridLibary/Classes/Exclude"
+
+  s.subspec 'Const' do |ss|
+    ss.source_files = 'YOThridLibary/YOThridLibary/Classes/Const/**/*.{h,m}'
+  end
+
+  s.subspec 'IBInspectable' do |ss|
+    ss.source_files = 'YOThridLibary/YOThridLibary/Classes/IBInspectable/**/*.{h,m}'
+  end
+
+
+  s.subspec 'UIColorHexColor' do |ss|
+    ss.source_files = 'YOThridLibary/YOThridLibary/Classes/UIColorHexColor/**/*.{h,m}'
+  end
+
+  s.subspec 'YOBtnBlock' do |ss|
+    ss.source_files = 'YOThridLibary/YOThridLibary/Classes/YOBtnBlock/**/*.{h,m}'
+  end
 
   # spec.public_header_files = "Classes/**/*.h"
 
