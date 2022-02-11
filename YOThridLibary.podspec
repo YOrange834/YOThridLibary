@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YOThridLibary"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of YOThridLibary."
 
   # This description is used to generate tags and improve search results.
@@ -94,20 +94,20 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "YOThridLibary/YOThridLibary/Classes", "YOThridLibary/YOThridLibary/Classes/**/*.{h,m}"
   # spec.exclude_files = "YOThridLibary/YOThridLibary/Classes/Exclude"
 
-  s.subspec 'Const' do |ss|
+  spec.subspec 'Const' do |ss|
     ss.source_files = 'YOThridLibary/YOThridLibary/Classes/Const/**/*.{h,m}'
   end
 
-  s.subspec 'IBInspectable' do |ss|
+  spec.subspec 'IBInspectable' do |ss|
     ss.source_files = 'YOThridLibary/YOThridLibary/Classes/IBInspectable/**/*.{h,m}'
   end
 
 
-  s.subspec 'UIColorHexColor' do |ss|
+  spec.subspec 'UIColorHexColor' do |ss|
     ss.source_files = 'YOThridLibary/YOThridLibary/Classes/UIColorHexColor/**/*.{h,m}'
   end
 
-  s.subspec 'YOBtnBlock' do |ss|
+  spec.subspec 'YOBtnBlock' do |ss|
     ss.source_files = 'YOThridLibary/YOThridLibary/Classes/YOBtnBlock/**/*.{h,m}'
   end
 
