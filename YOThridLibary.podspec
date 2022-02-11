@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YOThridLibary"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of YOThridLibary."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YOThridLibary/Classes", "YOThridLibary/Classes/**/*.{h,m}"
+  spec.source_files  = "YOThridLibary/YOThridLibary/Classes", "YOThridLibary/YOThridLibary/Classes/**/*.{h,m}"
   # spec.exclude_files = "YOThridLibary/YOThridLibary/Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
